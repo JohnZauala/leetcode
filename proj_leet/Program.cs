@@ -56,19 +56,27 @@ namespace proj_leet
             
         // }
 
+        // static void Main(string[] args)
+        // {
+        //     // var s = "leetcode";
+        //     // var wordDict = new string[]{"leet", "code"};
+
+        //     // var s = "applepenapple";
+        //     // var wordDict = new string[]{"apple", "pen"};
+
+        //     var s = "catsandog";
+        //     var wordDict = new string[]{"cats", "dog", "sand", "and", "cat"};
+
+        //     var instance = new WordBreak139();
+        //     Console.WriteLine("word break: {0}", instance.WordBreak(s, wordDict));
+            
+        // }
+
         static void Main(string[] args)
         {
-            // var s = "leetcode";
-            // var wordDict = new string[]{"leet", "code"};
-
-            // var s = "applepenapple";
-            // var wordDict = new string[]{"apple", "pen"};
-
-            var s = "catsandog";
-            var wordDict = new string[]{"cats", "dog", "sand", "and", "cat"};
-
-            var instance = new WordBreak139();
-            Console.WriteLine("word break: {0}", instance.WordBreak(s, wordDict));
+            var tokens = new string[]{"10","6","9","3","+","-11","*","/","*","17","+","5","+"};
+            var instance = new EvalRPN150();
+            Console.WriteLine("word break: {0}", instance.EvalRPN(tokens));
             
         }
     }
