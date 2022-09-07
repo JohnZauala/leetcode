@@ -3,15 +3,15 @@ using System.Collections.Generic;
 
 class MaxAreaOfIsland695
 {
-    public int MaxAreaOfIsland(int[][] grid) 
-    {
+    // public int MaxAreaOfIsland(int[][] grid) 
+    // {
 
-    }
+    // }
 
-    public int MaxAreaOfIsland(int[][] grid, int i, int j)
-    {
-
-    }
+    // public int MaxAreaOfIsland(int[][] grid, int i, int j)
+    // {
+        
+    // }
 
     // static void Main(string[] args)
     // {

@@ -72,11 +72,25 @@ namespace proj_leet
             
         // }
 
+        // static void Main(string[] args)
+        // {
+        //     var tokens = new string[]{"10","6","9","3","+","-11","*","/","*","17","+","5","+"};
+        //     var instance = new EvalRPN150();
+        //     Console.WriteLine("word break: {0}", instance.EvalRPN(tokens));
+            
+        // }
+
         static void Main(string[] args)
         {
-            var tokens = new string[]{"10","6","9","3","+","-11","*","/","*","17","+","5","+"};
-            var instance = new EvalRPN150();
-            Console.WriteLine("word break: {0}", instance.EvalRPN(tokens));
+            // var numCourses = 2;
+            // var prerequisites = new int[][]{new int[]{1,0}};
+            // var instance = new Course207();
+            // Console.WriteLine("CanFinish: {0}", instance.CanFinish(numCourses, prerequisites));
+
+            int[] nums = {1};
+            var k = 1;
+            var instance = new TopKFrequent347();
+            Console.WriteLine("TopKFrequent: {0}", String.Join(",", instance.TopKFrequent(nums, k)) );
             
         }
     }
