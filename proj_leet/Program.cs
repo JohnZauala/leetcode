@@ -80,18 +80,18 @@ namespace proj_leet
             
         // }
 
-        static void Main(string[] args)
-        {
-            // var numCourses = 2;
-            // var prerequisites = new int[][]{new int[]{1,0}};
-            // var instance = new Course207();
-            // Console.WriteLine("CanFinish: {0}", instance.CanFinish(numCourses, prerequisites));
+        // static void Main(string[] args)
+        // {
+        //     // var numCourses = 2;
+        //     // var prerequisites = new int[][]{new int[]{1,0}};
+        //     // var instance = new Course207();
+        //     // Console.WriteLine("CanFinish: {0}", instance.CanFinish(numCourses, prerequisites));
 
-            int[] nums = {1};
-            var k = 1;
-            var instance = new TopKFrequent347();
-            Console.WriteLine("TopKFrequent: {0}", String.Join(",", instance.TopKFrequent(nums, k)) );
+        //     int[] nums = {1};
+        //     var k = 1;
+        //     var instance = new TopKFrequent347();
+        //     Console.WriteLine("TopKFrequent: {0}", String.Join(",", instance.TopKFrequent(nums, k)) );
             
-        }
+        // }
     }
 }
