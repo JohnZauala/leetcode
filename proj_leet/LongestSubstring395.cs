@@ -38,12 +38,12 @@ class LongestSubstring395
         return ans;
     }
 
-    static void Main(string[] args)
-    {
-       var s = "ababbc";
-       var k = 2;
-       var instance = new LongestSubstring395();
-       Console.WriteLine($"LongestSubstring: {instance.LongestSubstring(s, k)}");
+    // static void Main(string[] args)
+    // {
+    //    var s = "ababbc";
+    //    var k = 2;
+    //    var instance = new LongestSubstring395();
+    //    Console.WriteLine($"LongestSubstring: {instance.LongestSubstring(s, k)}");
         
-    }
+    // }
 }

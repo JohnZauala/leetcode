@@ -7,7 +7,9 @@ namespace LC
     class SearchRange34
     {
         public int[] SearchRange(int[] nums, int target) {
-            
+            int left = LeftBound(nums, target);
+            int right = RightBound(nums, target);
+            return new int[]{left, right};
         }
 
         public int LeftBound(int[] nums, int target) {
@@ -15,7 +17,7 @@ namespace LC
             int right = nums.Length;
             while (left < right)
             {
-                int mid = left + (right - left)>>2;
+                int mid = left + ((right - left)/2);
                 if (nums[mid] < target) 
                 {
                     left = mid + 1;
@@ -26,19 +28,34 @@ namespace LC
             }
             
 
-            return nums[left] == target ? left : -1;
+            return left < nums.Length && nums[left] == target ? left : -1;
         }
 
         public int RightBound(int[] nums, int target) {
-
+            int left = 0, right = nums.Length;
+    
+            while (left < right) {
+                int mid = left + (right - left) / 2;
+                if (nums[mid] == target) {
+                    left = mid + 1; // 注意
+                } else if (nums[mid] < target) {
+                    left = mid + 1;
+                } else if (nums[mid] > target) {
+                    right = mid;
+                }
+            }
+            
+            if (left - 1 < 0) return -1;
+            return nums[left-1] == target ? left-1 : -1;
         }
 
         static void Main(string[] args)
         {
             SearchRange34 instance = new SearchRange34();
-            int[] arr = new int[]{5,7,7,8,8,10};
-            int target = 8;
-            Console.WriteLine("left bound: {0}", instance.LeftBound());  
+            int[] nums = new int[0];
+            int target = 0;
+            Console.WriteLine("left bound: {0}", instance.LeftBound(nums, target));  
+            Console.WriteLine("right bound: {0}", instance.RightBound(nums, target));  
             
         }
     }
