@@ -16,7 +16,7 @@ class Shuffle384
     }
     
     public int[] Reset() {
-        Array.Copy(original, _nums, N)
+        Array.Copy(original, _nums, N);
         return _nums;
     }
     
@@ -37,9 +37,9 @@ class Shuffle384
         arr[j] = tmp;
     }
 
-    static void Main(string[] args)
-    {
+    // static void Main(string[] args)
+    // {
        
         
-    }
+    // }
 }
