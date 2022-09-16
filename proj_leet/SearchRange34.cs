@@ -49,14 +49,14 @@ namespace LC
             return nums[left-1] == target ? left-1 : -1;
         }
 
-        static void Main(string[] args)
-        {
-            SearchRange34 instance = new SearchRange34();
-            int[] nums = new int[0];
-            int target = 0;
-            Console.WriteLine("left bound: {0}", instance.LeftBound(nums, target));  
-            Console.WriteLine("right bound: {0}", instance.RightBound(nums, target));  
+        // static void Main(string[] args)
+        // {
+        //     SearchRange34 instance = new SearchRange34();
+        //     int[] nums = new int[0];
+        //     int target = 0;
+        //     Console.WriteLine("left bound: {0}", instance.LeftBound(nums, target));  
+        //     Console.WriteLine("right bound: {0}", instance.RightBound(nums, target));  
             
-        }
+        // }
     }
 }

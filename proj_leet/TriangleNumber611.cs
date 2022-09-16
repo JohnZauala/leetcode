@@ -37,14 +37,14 @@ namespace LC
             return ans;
         }
 
-        static void Main(string[] args)
-        {
-            TriangleNumber611 instance = new TriangleNumber611();
-            int[] nums = new int[]{4,2,3,4};
+        // static void Main(string[] args)
+        // {
+        //     TriangleNumber611 instance = new TriangleNumber611();
+        //     int[] nums = new int[]{4,2,3,4};
             
-            Console.WriteLine("有效三角形的个数:{0}", instance.TriangleNumber(nums));
+        //     Console.WriteLine("有效三角形的个数:{0}", instance.TriangleNumber(nums));
 
         
-        }
+        // }
     }
 }
