@@ -58,16 +58,16 @@ namespace LC
             return ans;
         }
 
-        static void Main(string[] args)
-        {
-            FindClosestElements658 instance = new FindClosestElements658();
-            int[] nums = new int[]{1,2,2,2,5,5,5,8,9,9};
-            int k = 4;
-            int x = 15;
+        // static void Main(string[] args)
+        // {
+        //     FindClosestElements658 instance = new FindClosestElements658();
+        //     int[] nums = new int[]{1,2,2,2,5,5,5,8,9,9};
+        //     int k = 4;
+        //     int x = 15;
             
-            Console.WriteLine("找到 K 个最接近的元素:{0}", string.Join(",", instance.FindClosestElements(nums, k, x)));
+        //     Console.WriteLine("找到 K 个最接近的元素:{0}", string.Join(",", instance.FindClosestElements(nums, k, x)));
 
         
-        }
+        // }
     }
 }
