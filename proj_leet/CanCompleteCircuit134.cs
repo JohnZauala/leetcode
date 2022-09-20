@@ -41,14 +41,14 @@ namespace LC
             return -1;
         }
 
-        static void Main(string[] args)
-        {
-            CanCompleteCircuit134 instance = new CanCompleteCircuit134();
-            int[] gas = new int[]{1,2,3,4,5};
-            int[] cost = new int[]{3,4,5,1,2};
+        // static void Main(string[] args)
+        // {
+        //     CanCompleteCircuit134 instance = new CanCompleteCircuit134();
+        //     int[] gas = new int[]{1,2,3,4,5};
+        //     int[] cost = new int[]{3,4,5,1,2};
            
-            Console.WriteLine("开始加油站:{0}", instance.CanCompleteCircuit(gas, cost));
+        //     Console.WriteLine("开始加油站:{0}", instance.CanCompleteCircuit(gas, cost));
         
-        }
+        // }
     }
 }
