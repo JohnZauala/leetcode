@@ -47,13 +47,13 @@ namespace LC
             return s.Substring(start, maxLength);
         }
 
-        static void Main(string[] args)
-        {
-            LongestPalindrome5 instance = new LongestPalindrome5();
-            string s = "cbbd";
+        // static void Main(string[] args)
+        // {
+        //     LongestPalindrome5 instance = new LongestPalindrome5();
+        //     string s = "cbbd";
            
-            Console.WriteLine("最长回文子串:{0}", instance.LongestPalindrome(s));
+        //     Console.WriteLine("最长回文子串:{0}", instance.LongestPalindrome(s));
         
-        }
+        // }
     }
 }
