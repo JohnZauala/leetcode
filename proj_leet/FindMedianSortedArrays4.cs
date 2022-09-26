@@ -40,14 +40,14 @@ namespace LC
             
         }
 
-        static void Main(string[] args)
-        {
-            FindMedianSortedArrays4 instance = new FindMedianSortedArrays4();
-            int[] nums1 = new int[]{1,2,5,6};
-            int[] nums2 = new int[]{3,4};
+        // static void Main(string[] args)
+        // {
+        //     FindMedianSortedArrays4 instance = new FindMedianSortedArrays4();
+        //     int[] nums1 = new int[]{1,2,5,6};
+        //     int[] nums2 = new int[]{3,4};
            
-            Console.WriteLine("寻找两个正序数组的中位数:{0}", instance.FindMedianSortedArrays(nums1, nums2));
+        //     Console.WriteLine("寻找两个正序数组的中位数:{0}", instance.FindMedianSortedArrays(nums1, nums2));
         
-        }
+        // }
     }
 }
