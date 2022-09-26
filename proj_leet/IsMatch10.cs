@@ -138,19 +138,19 @@ namespace LC
         //     return ans;
         // }
 
-        static void Main(string[] args)
-        {
-            IsMatch10 instance = new IsMatch10();
-            // string s = "abcaaaaaaabaabcabac";
-            // string p = ".*ab.a.*a*a*.*b*b*";
-            // string s = "abdc";
-            // string p ="abcd";
+        // static void Main(string[] args)
+        // {
+        //     IsMatch10 instance = new IsMatch10();
+        //     // string s = "abcaaaaaaabaabcabac";
+        //     // string p = ".*ab.a.*a*a*.*b*b*";
+        //     // string s = "abdc";
+        //     // string p ="abcd";
 
-            string s = "a";
-            string p ="a*";
+        //     string s = "a";
+        //     string p ="a*";
            
-            Console.WriteLine("正则表达式匹配:{0}", instance.IsMatch(s, p));
+        //     Console.WriteLine("正则表达式匹配:{0}", instance.IsMatch(s, p));
         
-        }
+        // }
     }
 }
