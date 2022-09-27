@@ -61,15 +61,15 @@ namespace LC
             return dummy.next;
         }
 
-        static void Main(string[] args)
-        {
-            InsertionSortList147 instance = new InsertionSortList147();
+        // static void Main(string[] args)
+        // {
+        //     InsertionSortList147 instance = new InsertionSortList147();
             
-            int[] head = new int[]{-1,5,3,4,0};
-            ListNode h = GetListByArray(head);
-            ListNode ret = instance.InsertionSortList(h);
-            PrintList(ret);
-        }
+        //     int[] head = new int[]{-1,5,3,4,0};
+        //     ListNode h = GetListByArray(head);
+        //     ListNode ret = instance.InsertionSortList(h);
+        //     PrintList(ret);
+        // }
 
         static ListNode GetListByArray(int[] arr)
         {
