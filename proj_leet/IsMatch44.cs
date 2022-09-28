@@ -50,17 +50,17 @@ namespace LC
             return dp[n, m];
         }
 
-        static void Main(string[] args)
-        {
-            IsMatch44 instance = new IsMatch44();
-            string s = "adceb";
-            string p = "*a*b";
+        // static void Main(string[] args)
+        // {
+        //     IsMatch44 instance = new IsMatch44();
+        //     string s = "adceb";
+        //     string p = "*a*b";
 
-            // string s = "a";
-            // string p ="a*";
+        //     // string s = "a";
+        //     // string p ="a*";
            
-            Console.WriteLine("44. 通配符匹配:{0}", instance.IsMatch(s, p));
+        //     Console.WriteLine("44. 通配符匹配:{0}", instance.IsMatch(s, p));
         
-        }
+        // }
     }
 }
