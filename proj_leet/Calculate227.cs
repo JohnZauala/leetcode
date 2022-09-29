@@ -92,13 +92,13 @@ namespace LC
             return 1;
         }
 
-        static void Main(string[] args)
-        {
-            Calculate227 instance = new Calculate227();
-            string s = "1*2-3/4+5*6-7*8+9/10";
+        // static void Main(string[] args)
+        // {
+        //     Calculate227 instance = new Calculate227();
+        //     string s = "1*2-3/4+5*6-7*8+9/10";
            
-            Console.WriteLine("227. 基本计算器 II: {0}", instance.Calculate(s));
+        //     Console.WriteLine("227. 基本计算器 II: {0}", instance.Calculate(s));
         
-        }
+        // }
     }
 }
