@@ -52,13 +52,13 @@ namespace LC
             return ans;
         }
 
-        static void Main(string[] args)
-        {
-            CountPrimes204 instance = new CountPrimes204();
-            int s = 499979;
+        // static void Main(string[] args)
+        // {
+        //     CountPrimes204 instance = new CountPrimes204();
+        //     int s = 499979;
            
-            Console.WriteLine("204. 计数质数: {0}", instance.CountPrimes(s));
+        //     Console.WriteLine("204. 计数质数: {0}", instance.CountPrimes(s));
         
-        }
+        // }
     }
 }
