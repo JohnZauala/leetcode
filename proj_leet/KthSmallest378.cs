@@ -46,11 +46,11 @@ class KthSmallest378
         return num >= k;
     }
 
-    static void Main(string[] args)
-    {
-        int[][] matrix = new int[][]{new int[]{1,5,9},new int[]{10,11,13},new int[]{12,13,15}};
-        var instance = new KthSmallest378();
-        Console.WriteLine("KthSmallest: {0}", instance.KthSmallest(matrix, 8));
+    // static void Main(string[] args)
+    // {
+    //     int[][] matrix = new int[][]{new int[]{1,5,9},new int[]{10,11,13},new int[]{12,13,15}};
+    //     var instance = new KthSmallest378();
+    //     Console.WriteLine("KthSmallest: {0}", instance.KthSmallest(matrix, 8));
         
-    }
+    // }
 }
