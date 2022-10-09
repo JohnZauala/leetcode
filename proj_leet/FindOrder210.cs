@@ -56,15 +56,15 @@ class FindOrder210
         return res.ToArray();
     }
 
-    static void Main(string[] args)
-    {
-        // int numCourses = 4;
-        // int[][] prerequisites = new int[][]{new int[]{1,0},new int[]{2,0},new int[]{3,1},new int[]{3,2}};
+    // static void Main(string[] args)
+    // {
+    //     // int numCourses = 4;
+    //     // int[][] prerequisites = new int[][]{new int[]{1,0},new int[]{2,0},new int[]{3,1},new int[]{3,2}};
 
-        int numCourses = 1;
-        int[][] prerequisites = new int[][]{};
-        var instance = new FindOrder210();
-        Console.WriteLine("FindOrder210: {0}", string.Join(",", instance.FindOrder(numCourses, prerequisites)) );
+    //     int numCourses = 1;
+    //     int[][] prerequisites = new int[][]{};
+    //     var instance = new FindOrder210();
+    //     Console.WriteLine("FindOrder210: {0}", string.Join(",", instance.FindOrder(numCourses, prerequisites)) );
         
-    }
+    // }
 }
