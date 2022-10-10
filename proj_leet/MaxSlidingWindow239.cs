@@ -43,16 +43,16 @@ class MaxSlidingWindow239
 
         return res;
     }
-    static void Main(string[] args)
-    {
+    // static void Main(string[] args)
+    // {
 
-        // int[] nums = new int[]{1,3,-1,-3,5,3,6,7};
-        // int k = 3;
+    //     // int[] nums = new int[]{1,3,-1,-3,5,3,6,7};
+    //     // int k = 3;
 
-        int[] nums = new int[]{1};
-        int k = 1;
-        var instance = new MaxSlidingWindow239();
-        Console.WriteLine("FindOrder210: {0}", string.Join(",", instance.MaxSlidingWindow(nums, k)) );
+    //     int[] nums = new int[]{1};
+    //     int k = 1;
+    //     var instance = new MaxSlidingWindow239();
+    //     Console.WriteLine("FindOrder210: {0}", string.Join(",", instance.MaxSlidingWindow(nums, k)) );
         
-    }
+    // }
 }
