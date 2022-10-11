@@ -35,12 +35,12 @@ class ThreeSumClosest16
         return sum;
     }
 
-    static void Main(string[] args)
-    {
-        int[] nums = new int[]{-1,2,1,-4};
-        int target = 1;
-        var instance = new ThreeSumClosest16();
-        Console.WriteLine("ThreeSumClosest16: {0}", instance.ThreeSumClosest(nums, target));
+    // static void Main(string[] args)
+    // {
+    //     int[] nums = new int[]{-1,2,1,-4};
+    //     int target = 1;
+    //     var instance = new ThreeSumClosest16();
+    //     Console.WriteLine("ThreeSumClosest16: {0}", instance.ThreeSumClosest(nums, target));
         
-    }
+    // }
 }

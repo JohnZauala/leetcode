@@ -4,7 +4,9 @@ using System.Collections.Generic;
 //https://leetcode.cn/problems/rotate-list/?favorite=ex0k24j
 //61. 旋转链表
 
- public class ListNode {
+namespace RotateRight
+{
+    public class ListNode {
       public int val;
       public ListNode next;
       public ListNode(int val=0, ListNode next=null) {
@@ -12,6 +14,8 @@ using System.Collections.Generic;
           this.next = next;
       }
   }
+}
+ 
 
 class RotateRight61
 {
@@ -33,12 +37,12 @@ class RotateRight61
         ListNode last = list[len-k-1];
         last.next = null;
 
-        ListNode h = list[len-l];
-        while(h.next != null) {
-            h = h.next;
+        ListNode h1 = list[len-k];
+        while(h1.next != null) {
+            h1 = h1.next;
         }
 
-        h.next = head;
+        h1.next = head;
         return head;
     }
 
