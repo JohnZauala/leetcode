@@ -41,16 +41,16 @@ class AddStrings415
     }
 
     
-    static void Main(string[] args)
-    {
-        string num1 = "11";
-        string num2 = "123";
-        // string num1 = "0";
-        // string num2 = "0";
-        // string num1 = "999";
-        // string num2 = "99";
-        var instance = new AddStrings415();
-        Console.WriteLine("AddStrings: {0}",instance.AddStrings(num1, num2) );
+    // static void Main(string[] args)
+    // {
+    //     string num1 = "11";
+    //     string num2 = "123";
+    //     // string num1 = "0";
+    //     // string num2 = "0";
+    //     // string num1 = "999";
+    //     // string num2 = "99";
+    //     var instance = new AddStrings415();
+    //     Console.WriteLine("AddStrings: {0}",instance.AddStrings(num1, num2) );
         
-    }
+    // }
 }
