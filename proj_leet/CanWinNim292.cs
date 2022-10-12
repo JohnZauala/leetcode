@@ -39,11 +39,11 @@ class CanWinNim292
     }
     
 
-    static void Main(string[] args)
-    {
-        int n = 10;
-        var instance = new CanWinNim292();
-        Console.WriteLine("CanWinNim292: {0}",instance.CanWinNim(n) );
+    // static void Main(string[] args)
+    // {
+    //     int n = 10;
+    //     var instance = new CanWinNim292();
+    //     Console.WriteLine("CanWinNim292: {0}",instance.CanWinNim(n) );
         
-    }
+    // }
 }
