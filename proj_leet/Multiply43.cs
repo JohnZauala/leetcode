@@ -90,16 +90,16 @@ class Multiply43
     }
 
     
-    static void Main(string[] args)
-    {
-        // string num1 = "11";
-        // string num2 = "123";
-        string num1 = "6";
-        string num2 = "501";
-        // string num1 = "999";
-        // string num2 = "99";
-        var instance = new Multiply43();
-        Console.WriteLine("Multiply43: {0}",instance.Multiply(num1, num2) );
+    // static void Main(string[] args)
+    // {
+    //     // string num1 = "11";
+    //     // string num2 = "123";
+    //     string num1 = "6";
+    //     string num2 = "501";
+    //     // string num1 = "999";
+    //     // string num2 = "99";
+    //     var instance = new Multiply43();
+    //     Console.WriteLine("Multiply43: {0}",instance.Multiply(num1, num2) );
         
-    }
+    // }
 }
