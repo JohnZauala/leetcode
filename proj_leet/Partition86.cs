@@ -41,16 +41,16 @@ namespace Partition86
             return dummyL.next;
         }
 
-        static void Main(string[] args)
-        {
-            Partition86 instance = new Partition86();
+        // static void Main(string[] args)
+        // {
+        //     Partition86 instance = new Partition86();
             
-            int[] head = new int[]{2, 1};
-            int x = 2;
-            ListNode h = GetListByArray(head);
-            ListNode ret = instance.Partition(h, x);
-            PrintList(ret);
-        }
+        //     int[] head = new int[]{2, 1};
+        //     int x = 2;
+        //     ListNode h = GetListByArray(head);
+        //     ListNode ret = instance.Partition(h, x);
+        //     PrintList(ret);
+        // }
 
     static ListNode GetListByArray(int[] arr)
     {
