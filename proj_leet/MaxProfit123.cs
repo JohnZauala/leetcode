@@ -81,14 +81,14 @@ class MaxProfit123
         return res;
     }
 
-    static void Main(string[] args)
-    {
-        MaxProfit123 instance = new MaxProfit123();
-        int[] prices = new int[]{3,3,5,0,0,3,1,4};
+    // static void Main(string[] args)
+    // {
+    //     MaxProfit123 instance = new MaxProfit123();
+    //     int[] prices = new int[]{3,3,5,0,0,3,1,4};
     
-        int res = instance.MaxProfit(prices);
-        Console.WriteLine("123. 买卖股票的最佳时机 III: {0}", res);
-    }
+    //     int res = instance.MaxProfit(prices);
+    //     Console.WriteLine("123. 买卖股票的最佳时机 III: {0}", res);
+    // }
 
     void PrintTab(int count) {
         for (int i = 0; i < count; i++)
